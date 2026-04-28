@@ -72,17 +72,18 @@ body {
 
 #tooltip {
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.9);
-    border: 1px solid #000;
+    background-color: white;
+    color: black;
     padding: 10px;
-    pointer-events: none;
+    border: 1px solid black;
     border-radius: 5px;
+    pointer-events: none;
 }
+
 .hidden {
     display: none;
     opacity: 0;
 }
-
 #info-box {
     position: absolute;
     background: rgba(5, 11, 20, 0.95);
